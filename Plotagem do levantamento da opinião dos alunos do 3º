@@ -1,0 +1,188 @@
+# INSTALANDO BIBILIOTECAS 
+
+# instalando a biblioteca NLTK, para o Processamento de Linguagem Natural (PLN)
+# instalando a biblioteca WordCloud, que será usada para criar nuvens de palavras a partir de texto
+
+!pip install nltk
+!pip install wordcloud
+
+
+# IMPORTANDO BIBLIOTECAS NECESSÁRIAS
+
+# nltk - é uma biblioteca em Python que fornece ferramentas e recursos para o Processamento de Linguagem Natural (PLN)
+# stopwords - é uma lista de palavras comuns em um idioma específico que são consideradas não informativas e são removidas do texto (fase pré-processamento)
+# word_tokenize - usada para dividir um texto em palavras ou tokens individuais (fase pré-processamento)
+# wordcloud - biblioteca usada para criar nuvens de palavras a partir de texto onde o tamanho das palavras é proporcional à sua frequência no texto.
+# matplotlib - biblioteca para criação de gráficos e visualizações. Neste caso, usado para plotar a nuvem de palavras.
+# Counter - classe usada para contar a frequência de elementos em uma coleção. Usada para contar a frequência das palavras.
+
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+from collections import Counter
+
+# Baixando os recursos de Natural Language Toolkit(NLTK) para fazer o processamento
+nltk.download('punkt')
+nltk.download('stopwords')
+
+# Respostas dos alunos do 3º - Pesquisa 
+texto = """
+
+processo seletivo de auxílios, em geral 
+auxílios 
+acesso facilitado a editais 
+verba do instituto 
+auxilio escolar 
+auxilio e a secretaria 
+auxílios 
+auxílios, núcleos, projetos, atividades acadêmicas extracurriculares 
+refeitório 
+auxilio escolar 
+auxílios 
+projetos de extensão 
+auxilio estudantil 
+auxílios
+estágio
+projetos, auxílios 
+auxílios e processo seletivo de ingressantes
+atividades extracurriculares, projetos, e estagio 
+estagio e auxílios estudantis 
+projetos
+estagio e refeitório 
+estagio e enfermaria 
+auxílios 
+auxílios do IF
+auxílios 
+
+SUAP e projetos
+auxilio transporte
+alojamento 
+enfermaria 
+projetos de pesquisa 
+auxílios estudantis
+praticas esportivas 
+enfermaria
+enfermaria
+atendimento pisicologico 
+auxílios 
+eventos e projetos
+IF Baiano em geral
+palestras e mini cursos 
+estágio, projetos, eventos e palestras  
+IF Baiano em geral
+projetos 
+auxílios e projetos 
+
+
+auxílios 
+centro de conveniência e liberação da sala de aula durante o período do almoço
+atendimento com o oftalmologista
+auxilio eventual, projetos de extensão e monitoria 
+monitoria e tutoria
+atendimento pisicologico 
+eventos e projeto de extensão 
+ingresso de estudantes 
+alimentação e auxílios 
+refeitório 
+auxílios estudantis
+auxílios
+distribuição da internet
+atendimento médico 
+auxilio eventual 
+atendimento pisicologico e atendimento médico 
+atendimento pisicologico
+auxílios estudantis 
+recursos do IF para lazer 
+atendimento médico e estágio
+distribuição da internet
+atendimento pisicologico
+atendimento médico, atendimento pisicologico, processo seletivo de tutoria e auxílios estudantis 
+estagio
+atendimento médico 
+processo seletivo de cursos do superior, auxílios estudantis, atendimento médico e atendimento pisicologico
+atendimento pisicologico
+atendimento pisicologico
+
+
+atendimento pisicologico
+refeitório e estágio 
+atendimento pisicologico
+NAPNE
+participação de olimpíadas 
+atividades extracurriculares e eventos
+processo seletivo de ingressantes
+atendimento pisicologico
+ppc dos cursos 
+auxílios estudantis 
+auxílios estudantis 
+processo seletivo de ingressantes e atendimento médico 
+auxílio moradia e refeitório 
+auxílios estudantis 
+auxílios estudantis 
+auxílios estudantis e atendimento pisicologico
+auxílios estudantis 
+atendimento médico 
+processo seletivo
+eventos
+processo seletivo ingressantes 
+alimentação
+atendimento pisicologico
+atendimento pisicologico
+divisão de turmas 
+ppc do curso de Informática
+eventos, projetos de extensão e estágio 
+auxílios estudantis 
+auxílios estudantis 
+
+
+atendimento médico
+enfermaria e atendimento pisicologico
+atendimento pisicologico
+estágio 
+atendimento pisicologico
+
+
+"""
+
+# Tokenização - dividir o texto em palavras
+palavras = word_tokenize(texto)
+
+# Remover palavras de parada - stop words 
+stop_words = set(stopwords.words('portuguese'))
+palavras_sem_stopwords = [palavra.lower() for palavra in palavras if palavra.lower() not in stop_words]
+
+# Contar o total de palavras após a remoção das stop words
+total_palavras = len(palavras_sem_stopwords)
+
+# Criando nuvem de palavras
+nuvem_palavras = WordCloud(width=800, height=400, background_color='white').generate(" ".join(palavras_sem_stopwords))
+
+# Plotar a nuvem de palavras
+plt.figure(figsize=(12, 10))
+plt.imshow(nuvem_palavras, interpolation='bilinear')
+plt.axis('off')
+plt.show()
+
+print("\nLISTA DE FREQUÊNCIA DE PALAVRAS \n")
+
+# Contando a frequência das palavras e criando um dicionário de frequência e removendo "." e ","
+frequencia_palavras = {}
+for palavra in palavras_sem_stopwords:
+    palavra = palavra.strip(".,")  
+    if palavra in frequencia_palavras:
+        frequencia_palavras[palavra] += 1
+    else:
+        frequencia_palavras[palavra] = 1
+
+
+# Criando uma lista formatada de palavras e frequências
+lista_formatada = [f"{palavra}: {frequencia}" for palavra, frequencia in frequencia_palavras.items()]
+
+# Imprimindo a lista em grupos de 5 itens por linha
+itens_por_linha = 5
+for i in range(0, len(lista_formatada), itens_por_linha):
+    linha = lista_formatada[i:i + itens_por_linha]
+    linha_formatada = ", ".join(linha)
+    print(linha_formatada)
