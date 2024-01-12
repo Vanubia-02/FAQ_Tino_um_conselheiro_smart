@@ -1,0 +1,68 @@
+{
+  "id": "3f92e8d1-6f05-455f-92c6-63ded9b8b3a3",
+  "parentId": "df2767e1-bd40-41c9-9b7f-5fe36f9d6912",
+  "rootParentId": "df2767e1-bd40-41c9-9b7f-5fe36f9d6912",
+  "name": "option1.option3",
+  "contexts": [
+    "option1-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option1.option1-custom",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option1option3-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8a16ab8a-b639-4a00-92b9-9a7ca4b6e673",
+          "name": "Question2AV1",
+          "required": true,
+          "dataType": "@Choice",
+          "value": "$question2AV1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖 #namestudant.name, entre em contato com o  NAPNE:\n\nSilvana Vanessa Martins da Silva Bonfim (CAE)\n📨 silvana.bonfim@ifbaiano.edu.br\n📲Telefone: 77 3493-2100\n\n\n💭Os alunos procuram o CAE ou psicólogo geralmente quando estão  passando por algum problema ou preocupação. Pode me dizer, suas preocupações ocorre na maior parte do tempo (mais de 1 hora por dia)❓"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n  01➡️ Atendimento pelo NAPNE\n  02➡️ Atendimento pelo NAPSI\n  03➡️ Atendimento pelo PRO-SAÚDE\n  04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "value": "Sim",
+    "synonyms": [
+      "sim",
+      "Sim",
+      "Si",
+      "tenho",
+      "faço",
+      "sinto",
+      "ocorre",
+      "ocorrem",
+      "percebo",
+      "passo",
+      "acabam",
+      "interferem",
+      "costumo",
+      "com Certeza",
+      "Todo Dia",
+      "Sempre",
+      "Sem dúvida",
+      "Afirmativo",
+      "Exatamente",
+      "Sem sombra de dúvida",
+      "Indubitavelmente",
+      "Positivamente",
+      "Concordo",
+      "Inegavelmente",
+      "Verdade",
+      "yes",
+      "huhrum",
+      "Ahram",
+      "ss"
+    ]
+  },
+  {
+    "value": "Não",
+    "synonyms": [
+      "Não",
+      "no",
+      "Nao",
+      "nunca",
+      "nananinanao",
+      "nan",
+      "not",
+      "uhuhn",
+      "nop",
+      "huhum"
+    ]
+  }
+]

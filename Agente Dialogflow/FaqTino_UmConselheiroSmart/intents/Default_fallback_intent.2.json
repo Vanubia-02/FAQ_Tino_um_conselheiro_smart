@@ -1,0 +1,44 @@
+{
+  "id": "49ef246b-c789-4632-98dd-f2a74c43fcfa",
+  "name": "Default_fallback_intent.2",
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🚫 Ops! Escolha uma opção válida!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n  01➡️ Atendimento pelo NAPNE\n  02➡️ Atendimento pelo NAPSI\n  03➡️ Atendimento pelo PRO-SAÚDE\n  04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

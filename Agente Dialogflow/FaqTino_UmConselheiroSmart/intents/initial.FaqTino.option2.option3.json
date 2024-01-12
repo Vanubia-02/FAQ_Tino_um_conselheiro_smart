@@ -1,0 +1,39 @@
+{
+  "id": "0f777afb-a0f8-446b-b32e-57bc4e7c5dc5",
+  "parentId": "bd8110a0-fe72-454c-b5c6-a03416cbecf9",
+  "rootParentId": "6ddc88c7-a0ee-4380-b66a-cf3a6c23789d",
+  "name": "initial.FaqTino.option2.option3",
+  "contexts": [
+    "initialFaqTinooption2-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "initialFaqTino.initialFaqTino-custom.initialFaqTinooption2-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 2.3 - Atendimento psicológico em Guanambi.\n▪️ Núcleo de Apoio Pedagógico e Psicossocial ▪️\n\n01➡️ Menu\n00➡️ Finalizar conversa.\n\n▶ Os alunos que moram em Guanambi podem estar tendo o atendimento na unidade da UniFG em Guanambi enquanto a parceria entre o Instituto e a Universidade estiver em vigor.\n📭Endereço: Av. Barão do Rio Branco, 459 - Centro, Guanambi - BA, 46430-000"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

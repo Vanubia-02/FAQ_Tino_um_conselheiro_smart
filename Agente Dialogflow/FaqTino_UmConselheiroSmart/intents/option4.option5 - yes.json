@@ -1,0 +1,90 @@
+{
+  "id": "85990e27-7e67-49d7-8889-fa8327a3eb12",
+  "parentId": "96fe6e62-b580-46d6-af61-5d322dc751b2",
+  "rootParentId": "e7f816ba-ac26-4a74-89ad-bdf82416f861",
+  "name": "option4.option5 - yes",
+  "auto": true,
+  "contexts": [
+    "namestudant",
+    "option4-followup",
+    "option4option5-followup-2",
+    "option4option5-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option4.option4-custom.option4option5-yes",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option4-followup",
+          "lifespan": 50
+        },
+        {
+          "name": "option4option5-followup-2",
+          "lifespan": 50
+        },
+        {
+          "name": "option4option5-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f275cf2a-23a2-4b7c-b99d-ea285c7341a4",
+          "name": "Question1FV1",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$question1FV1yes",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖 Qual(is), #namestudant.name ❓"
+            },
+            {
+              "lang": "en",
+              "value": "🤖 Qual(is) a doença, #namestudant.name ❓"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n01➡️ Atendimento pelo NAPNE \n02➡️ Atendimento pelo NAPSI \n03➡️ Atendimento pelo PRO-SAÚDE \n04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

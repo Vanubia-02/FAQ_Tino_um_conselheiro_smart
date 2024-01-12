@@ -1,0 +1,68 @@
+{
+  "id": "6031e255-0d21-493b-9af8-a757ae264329",
+  "parentId": "e7f816ba-ac26-4a74-89ad-bdf82416f861",
+  "rootParentId": "e7f816ba-ac26-4a74-89ad-bdf82416f861",
+  "name": "option4.option1",
+  "contexts": [
+    "option4-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option4.option4-custom",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option4-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "200aa76a-9d75-40ca-8582-bc66099cfd28",
+          "name": "Question1AV2",
+          "required": true,
+          "dataType": "@Choice",
+          "value": "$question1AV2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖Para conseguir atendimento pelo PAE, o aluno pode a qualquer momento solicitar o auxílio eventual. Basta entrar em contato com a CLAE ou com Lucas Nascimento (assistente social).\n\n😔Busca por apoio como o PAE é sempre uma opção. Pode me dizer se você costuma vivenciar sentimentos de temor ou ansiedade relacionados a atividades, eventos, ou ao seu desempenho acadêmico ou profissional❓"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n  01➡️ Atendimento pelo NAPNE\n  02➡️ Atendimento pelo NAPSI\n  03➡️ Atendimento pelo PRO-SAÚDE\n  04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

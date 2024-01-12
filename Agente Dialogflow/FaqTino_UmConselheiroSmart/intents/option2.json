@@ -1,0 +1,45 @@
+{
+  "id": "e7beba65-02ba-438f-8150-9108a40e9cd8",
+  "name": "option2",
+  "contexts": [
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option2-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 02 - Atendimento pelo NAPSI\n\n1 ➡️ Como é o atendimento psicológico pelo NAPSI?\n2 ➡️ Quais as parcerias de atendimento psicológico - NAPSI?\n3 ➡️ Onde é o atendimento psicológico em Guanambi?\n4 ➡️ Quais os contatos do NAPSI?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

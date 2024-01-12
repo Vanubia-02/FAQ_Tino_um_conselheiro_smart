@@ -1,0 +1,42 @@
+{
+  "id": "025e6134-95c8-435e-884c-9dc82badc9c0",
+  "parentId": "abaee6f1-d2f4-44af-b8d6-1fce9a03815d",
+  "rootParentId": "abaee6f1-d2f4-44af-b8d6-1fce9a03815d",
+  "name": "login.exit",
+  "auto": true,
+  "contexts": [
+    "login-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "login.login-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤷 Entendi! Se surgir algo, não hesite em perguntar. Até breve!",
+            "🤷 Entendido! Se precisar, estou à disposição. Até mais!",
+            "🤷 Certo! Se tiver mais alguma dúvida, estou por aqui. Até logo!",
+            "🤷 Ok! Estou aqui se precisar de mais ajuda. Até a próxima!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

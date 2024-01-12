@@ -1,0 +1,9 @@
+{
+  "id": "4bdc3372-f777-48e8-8c29-1da73bce53ae",
+  "name": "studentClass",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true
+}

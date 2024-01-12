@@ -1,0 +1,68 @@
+{
+  "id": "a5df1ec5-505d-4d9e-87a9-1a53a7272df7",
+  "parentId": "df2767e1-bd40-41c9-9b7f-5fe36f9d6912",
+  "rootParentId": "df2767e1-bd40-41c9-9b7f-5fe36f9d6912",
+  "name": "option1.option1",
+  "contexts": [
+    "option1-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option1.option1-custom",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option1-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5536b719-4152-4fe3-9df1-bd9bc400f97d",
+          "name": "Question1AV1",
+          "required": true,
+          "dataType": "@Choice",
+          "value": "$question1AV1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖 O atendimento pelo NAPNE ocorre quando os profissionais membros do NAPNE responsáveis pelo aluno, percebem algum sinal de transtorno psicológico, e encaminham o aluno para o tratamento com o psicólogo.\n\nFalando nisso, #namestudant.name você sente, preocupação ou com medo quando se trata de atividades, eventos ou desempenho escolar ou profissional❓"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n  01➡️ Atendimento pelo NAPNE\n  02➡️ Atendimento pelo NAPSI\n  03➡️ Atendimento pelo PRO-SAÚDE\n  04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

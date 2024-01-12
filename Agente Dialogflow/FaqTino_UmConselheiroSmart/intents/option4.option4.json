@@ -1,0 +1,75 @@
+{
+  "id": "5d8e49d9-c971-456e-99ef-76f3b516997b",
+  "parentId": "e7f816ba-ac26-4a74-89ad-bdf82416f861",
+  "rootParentId": "e7f816ba-ac26-4a74-89ad-bdf82416f861",
+  "name": "option4.option4",
+  "contexts": [
+    "namestudant",
+    "option4-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option4.option4-custom",
+      "affectedContexts": [
+        {
+          "name": "option4-followup-2",
+          "lifespan": 50
+        },
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d9cae5fe-ca8a-4112-a3e4-dec6b2e91480",
+          "name": "Question1CV1",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$question1CV1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖 O Auxílio Eventual é destinado aos estudantes regularmente matriculados, que possuam renda per capita de até um salário-mínimo e meio vigente.\n\n😉Sabendo que o Auxílio Eventual está aqui para apoiar os estudantes, me diga, dos itens abaixo, com quantos você se identifica? Lembrando que, esses sintomas devem estar presentes na maioria dos dias.\n\n▫️  Se sente inquieto ou agitado na maior parte do tempo.\n▫️  Sente cansaço ou indisposição na maior parte do tempo.\n▫️  Enfrenta dificuldade para se concentrar na maior parte do tempo.\n▫️  Sente uma sensação de branco na mente com frequência.\n▫️  Se sente irritado na maioria dos dias.\n▫️  Sente tensão ou dores pelo corpo na maioria dos dias.\n▫️  Enfrenta dificuldade para dormir ou acorda com frequência na maioria dos dias."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n  01➡️ Atendimento pelo NAPNE\n  02➡️ Atendimento pelo NAPSI\n  03➡️ Atendimento pelo PRO-SAÚDE\n  04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

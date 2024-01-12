@@ -1,0 +1,210 @@
+{
+  "id": "e67dcb54-08cc-478f-aa05-2936b5f72939",
+  "name": "welcome",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9dbf67ff-27c8-48cf-a00c-bd3d54a4d07b",
+          "name": "name",
+          "required": true,
+          "dataType": "@sys.person",
+          "value": "$nameStudant",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖 Ola! Sou o FAQ Tino.\nEstou aqui para retirar dúvidas sobre o atendimento psicológico do Campus Guanambi.\n\nPor gentileza. Informe o seu nome."
+            },
+            {
+              "lang": "en",
+              "value": "🤖 Ola! Sou o FAQ Tino.\nEstou aqui para retirar dúvidas sobre o atendimento psicológico do Campus Guanambi.\n\nQual o seu nome?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖 Ola! Sou o FAQ Tino.\nEstou aqui para retirar dúvidas sobre o atendimento psicológico do Campus Guanambi.\n\nMe diga seu nome?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖 Ola! Sou o FAQ Tino.\nEstou aqui para retirar dúvidas sobre o atendimento psicológico do Campus Guanambi.\n\nPor favor, me diga, qual seu nome?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖 Ola! Sou o FAQ Tino.\nEstou aqui para retirar dúvidas sobre o atendimento psicológico do Campus Guanambi.\n\nGostaria de saber o seu nome."
+            },
+            {
+              "lang": "en",
+              "value": "🤖 Ola! Sou o FAQ Tino.\nEstou aqui para retirar dúvidas sobre o atendimento psicológico do Campus Guanambi.\n\nPor qual nome devo chamar você?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖 Ola! Sou o FAQ Tino.\nEstou aqui para retirar dúvidas sobre o atendimento psicológico do Campus Guanambi.\n\nPor favor, me diga como você se chama."
+            },
+            {
+              "lang": "en",
+              "value": "🤖 Ola! Sou o FAQ Tino.\nEstou aqui para retirar dúvidas sobre o atendimento psicológico do Campus Guanambi.\n\nGostaria de saber qual o seu nome."
+            },
+            {
+              "lang": "en",
+              "value": "🤖 Ola! Sou o FAQ Tino.\nEstou aqui para retirar dúvidas sobre o atendimento psicológico do Campus Guanambi.\n\nAdoraria saber qual o seu nome."
+            },
+            {
+              "lang": "en",
+              "value": "🤖 Ola! Sou o FAQ Tino.\nEstou aqui para retirar dúvidas sobre o atendimento psicológico do Campus Guanambi.\n\nMe diga seu nome, por favor."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7256d74f-e8b1-4774-b722-175e2362b182",
+          "name": "class",
+          "required": true,
+          "dataType": "@studentClass",
+          "value": "$classStudant",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖 E qual a sua turma $name?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖 $name, em qual turma você está?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖 E qual a sua turma ?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖 Em qual turma você está?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖 Me diga também, em qual turma você está."
+            },
+            {
+              "lang": "en",
+              "value": "🤖 $name diga também, em qual turma você está."
+            },
+            {
+              "lang": "en",
+              "value": "🤖 $name, e a sua turma?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖  $name, sua turma ?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖 E a sua turma $name?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖 Me dia sua turma."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d8cd3799-b707-41cd-af86-7d82117ed9a6",
+          "name": "age",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$ageStudant",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖 E idade?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖 E sua idade?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖 Me conte, qual a sua idade?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖$name, me fale a sua idade?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖$name, qual a sua idade?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖$name, me diga sua idade?"
+            },
+            {
+              "lang": "en",
+              "value": "🤖Me diga sua idade, $name ."
+            },
+            {
+              "lang": "en",
+              "value": "🤖Por último, me informe sua idade ."
+            },
+            {
+              "lang": "en",
+              "value": "🤖Por último, me diga sua idade ."
+            },
+            {
+              "lang": "en",
+              "value": "🤖Por último, qual a sua idade $name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n  01➡️ Atendimento pelo NAPNE\n  02➡️ Atendimento pelo NAPSI\n  03➡️ Atendimento pelo PRO-SAÚDE\n  04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

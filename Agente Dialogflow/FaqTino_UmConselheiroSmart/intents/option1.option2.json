@@ -1,0 +1,48 @@
+{
+  "id": "9d1de2cf-434f-4441-a7f0-82248b36a401",
+  "parentId": "df2767e1-bd40-41c9-9b7f-5fe36f9d6912",
+  "rootParentId": "df2767e1-bd40-41c9-9b7f-5fe36f9d6912",
+  "name": "option1.option2",
+  "contexts": [
+    "option1-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option1.option1-custom",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option1option2-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 Somente os alunos que estão sendo acompanhados pelos profissionais do NAPNE. O núcleo  é informado sobre a situação destes alunos pelo CAE. O CAE é informado pelos responsáveis do aluno assim que a matrícula é efetuada.\n\n🩺 Em relação a isso, #namestudant.name, você recebeu diagnóstico de alguma condição médica❓"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

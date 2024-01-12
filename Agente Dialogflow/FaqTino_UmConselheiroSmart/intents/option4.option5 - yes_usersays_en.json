@@ -1,0 +1,132 @@
+[
+  {
+    "id": "c60eb6ca-dcdc-455b-8f6a-9fb183e11ea3",
+    "data": [
+      {
+        "text": "claro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "da9fb607-1192-496a-868d-e84a7053f451",
+    "data": [
+      {
+        "text": "sempre tive",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5e317d02-7dac-4373-9470-726505edd6f7",
+    "data": [
+      {
+        "text": "obtive",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "81af5699-3869-4251-8235-4172b6060705",
+    "data": [
+      {
+        "text": "recentimente",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f1721b1b-54a7-4264-ab5a-a3c5afc379a9",
+    "data": [
+      {
+        "text": "Recebi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9117ecac-5817-41b9-be20-933b8b07e006",
+    "data": [
+      {
+        "text": "Tenho o diagnóstico",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f4aebdc5-326b-465b-95af-077d8510dfd6",
+    "data": [
+      {
+        "text": "positivo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dad80af1-6011-448c-8764-4672cf928f11",
+    "data": [
+      {
+        "text": "confirmo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e3c0426f-c6b2-453d-8482-974279a2ec4a",
+    "data": [
+      {
+        "text": "Possuo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6e1d7450-6b34-4cf9-843c-f62abb11a87f",
+    "data": [
+      {
+        "text": "sim",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

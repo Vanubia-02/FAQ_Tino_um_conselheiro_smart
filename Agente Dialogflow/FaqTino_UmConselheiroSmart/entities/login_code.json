@@ -1,0 +1,9 @@
+{
+  "id": "86da3b12-763f-4f64-afa7-0a0a6b3e2913",
+  "name": "login_code",
+  "isOverridable": true,
+  "isEnum": true,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

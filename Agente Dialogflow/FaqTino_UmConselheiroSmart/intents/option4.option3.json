@@ -1,0 +1,68 @@
+{
+  "id": "59d6feb6-9feb-4769-9e42-dd57cd6f76b7",
+  "parentId": "e7f816ba-ac26-4a74-89ad-bdf82416f861",
+  "rootParentId": "e7f816ba-ac26-4a74-89ad-bdf82416f861",
+  "name": "option4.option3",
+  "contexts": [
+    "option4-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option4.option4-custom",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option4-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0b0f85a3-f2ff-4973-b17d-054f4a11f75d",
+          "name": "Question1EV2",
+          "required": true,
+          "dataType": "@Choice",
+          "value": "$question1EV2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖O aluno pode solicitar um valor específico, porém o acompanhamento psicoterapêutico tem limite máximo de até $1000 para o Instituto, assim, o instituto que decide quanto vai ser o total de repasse para o aluno.\n\n💊O auxílio pode cobrir diferentes necessidades, então, você faz uso regular de algum medicamento❓"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n  01➡️ Atendimento pelo NAPNE\n  02➡️ Atendimento pelo NAPSI\n  03➡️ Atendimento pelo PRO-SAÚDE\n  04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

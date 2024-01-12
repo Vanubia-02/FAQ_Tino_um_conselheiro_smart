@@ -1,0 +1,223 @@
+[
+  {
+    "id": "2c4be156-cfcc-4c77-b36b-a43fbc74cc6d",
+    "data": [
+      {
+        "text": "tchau",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3dbf3201-fec1-4ed4-8d9a-c42968ce0177",
+    "data": [
+      {
+        "text": "partir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "80130802-27f5-4e99-8536-dea35d29e51e",
+    "data": [
+      {
+        "text": "Estou de partida",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4b13392a-d30c-4a77-9fdd-982f3c33944a",
+    "data": [
+      {
+        "text": "ir embora",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c247ba65-c48a-4614-88b4-04c74195c035",
+    "data": [
+      {
+        "text": "Vou me ausentar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "63e23fb1-1035-48d6-8239-71eadf12e1aa",
+    "data": [
+      {
+        "text": "Estou me retirando",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4e77d220-b28e-4e86-a3c3-fb0325865d30",
+    "data": [
+      {
+        "text": "Estou de saída",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ea2d7f8-a657-4c51-ac60-91b960f1bb98",
+    "data": [
+      {
+        "text": "Vou dar o fora",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f863a760-52c2-46a2-9fb5-54ed92191d08",
+    "data": [
+      {
+        "text": "Estou saindo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e6c90aa7-3fbe-45be-a55b-c442f94a4fa1",
+    "data": [
+      {
+        "text": "sair agora",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ad43f9e7-46f9-4dac-9c12-802705b1471f",
+    "data": [
+      {
+        "text": "quero partir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "790e6a71-92ea-4395-ba4f-25ef939c9706",
+    "data": [
+      {
+        "text": "me retirar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "473686b8-b067-41a8-b246-7b35ef79edcb",
+    "data": [
+      {
+        "text": "cansei",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "522019d4-ba33-4df5-87b3-fd98c56ec978",
+    "data": [
+      {
+        "text": "não quero mais",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c52939e9-5a0e-4ad2-91ec-5bf80690c293",
+    "data": [
+      {
+        "text": "quero sair",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a66cd2d5-0b53-44e4-87aa-91346d306bc2",
+    "data": [
+      {
+        "text": "sair",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0a3beb4b-d125-43fe-b480-69315f00449e",
+    "data": [
+      {
+        "text": "SAIR",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "lang": "en",
+    "updated": 0
+  }
+]

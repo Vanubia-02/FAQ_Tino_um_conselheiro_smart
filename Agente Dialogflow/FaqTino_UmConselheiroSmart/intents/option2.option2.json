@@ -1,0 +1,68 @@
+{
+  "id": "78ea6b9d-7b60-44e5-b608-d7b150473047",
+  "parentId": "e7beba65-02ba-438f-8150-9108a40e9cd8",
+  "rootParentId": "e7beba65-02ba-438f-8150-9108a40e9cd8",
+  "name": "option2.option2",
+  "contexts": [
+    "option2-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option2.option2-custom",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option2-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ef6bdb41-3c83-4ad5-ac22-c690d8d77fc9",
+          "name": "Question1AV3",
+          "required": true,
+          "dataType": "@Choice",
+          "value": "$question1AV3",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖 São duas parcerias de Guanambi com o NAPSI: \n\n▪️ UniFG:  3 estagiárias(psicologas), fazem os atendimentos presenciais no Campus Guanambi.\n\n▪️ Centro de Atenção Psicossocial(CAPS): para onde o NAPSI encaminha os  casos graves. \n Igor Caio (psicólogo) ou Lucas Nascimento (assistente social) que encaminham.\n\n💆🏻‍♂️As parcerias ajudam os alunos com probelmas, me diga #namestudant.name, você frequentemente vivencia receios ou ansiedade associados a tarefas, eventos ou ao seu desempenho acadêmico ou profissional❓"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n  01➡️ Atendimento pelo NAPNE\n  02➡️ Atendimento pelo NAPSI\n  03➡️ Atendimento pelo PRO-SAÚDE\n  04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

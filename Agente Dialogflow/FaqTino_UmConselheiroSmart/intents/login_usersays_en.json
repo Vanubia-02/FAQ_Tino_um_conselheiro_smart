@@ -1,0 +1,275 @@
+[
+  {
+    "id": "be6cba09-68ca-4473-ac01-6ac6f0cc1ae4",
+    "data": [
+      {
+        "text": "/Admin",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f8709b79-708e-485e-aa63-ccfc97554538",
+    "data": [
+      {
+        "text": "Eliminar e-mail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1f6518bd-064c-4707-bfbd-e4f69d8b51b5",
+    "data": [
+      {
+        "text": "Excluir correio eletrônico",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "40f99d5f-0a73-406c-9bb7-9b9e492940d8",
+    "data": [
+      {
+        "text": "Gerenciar e-mails",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a8a3541f-4a77-41e3-bb04-cf752ad37b8d",
+    "data": [
+      {
+        "text": "Revisar emails",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "df39a46b-1cf2-4058-832a-31cef03c5030",
+    "data": [
+      {
+        "text": "Listar e-mails",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ed7e83c2-54be-447c-a919-64b311d4f446",
+    "data": [
+      {
+        "text": "verificar emails",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "988bf1ed-ba5c-4139-8a8a-12563857b55a",
+    "data": [
+      {
+        "text": "ver e-mails",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b07020bf-e3c6-4710-b248-296d4468bea6",
+    "data": [
+      {
+        "text": "excluir email",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2c6219a7-41d9-455e-8e63-1c6c3745e1ae",
+    "data": [
+      {
+        "text": "Deletar e-mail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a77a7588-96aa-4da4-878a-b1c5a0538ec9",
+    "data": [
+      {
+        "text": "Gerenciar email",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "57ea49cf-fde7-44bd-bff3-fd12b89ec4d0",
+    "data": [
+      {
+        "text": "novo email",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fea53dcd-1043-42dc-873c-d528cde556a4",
+    "data": [
+      {
+        "text": "registrar novo e-mail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c01fca7b-eaf3-4cc5-87eb-c1e46bc3ab9d",
+    "data": [
+      {
+        "text": "adicionar endereço de Email",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c38efba-9139-4039-aeb1-d6f1c3b71d6a",
+    "data": [
+      {
+        "text": "inserir e-mail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0c80bdb5-5a3f-4ca1-b95e-42cdae052cae",
+    "data": [
+      {
+        "text": "Incluir Email",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1cb6df01-e6ce-4e3c-8015-13172143580a",
+    "data": [
+      {
+        "text": "Registrar email",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "21f3d4ab-f732-4f60-a72a-c89bb33e9f46",
+    "data": [
+      {
+        "text": "Adicionar Email.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5752d03a-fa8c-462f-b4ab-28c1d152b1a4",
+    "data": [
+      {
+        "text": "cadastro de E-mail",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dd89ef0d-896f-419c-b999-9862e6cde314",
+    "data": [
+      {
+        "text": "E-mail cadastro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0a67c788-0f94-4a51-9570-9a13a7b5aae1",
+    "data": [
+      {
+        "text": "colocar email",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

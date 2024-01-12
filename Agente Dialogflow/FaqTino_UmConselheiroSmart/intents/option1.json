@@ -1,0 +1,49 @@
+{
+  "id": "df2767e1-bd40-41c9-9b7f-5fe36f9d6912",
+  "name": "option1",
+  "contexts": [
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option1-followup",
+          "lifespan": 50
+        },
+        {
+          "name": "option1-followup-2",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 01 -  Atendimento pelo NAPNE\n\n1 ➡️ Como é o atendimento psicológico pelo NAPNE?\n2 ➡️ Quem pode ter atendimento psicológico pelo NAPNE?\n3 ➡️ Quais os contatos do NAPNE?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

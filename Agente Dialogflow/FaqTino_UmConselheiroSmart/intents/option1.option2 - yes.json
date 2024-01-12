@@ -1,0 +1,80 @@
+{
+  "id": "bff2033c-5f5d-408c-8d73-f7ad73e46b1e",
+  "parentId": "9d1de2cf-434f-4441-a7f0-82248b36a401",
+  "rootParentId": "df2767e1-bd40-41c9-9b7f-5fe36f9d6912",
+  "name": "option1.option2 - yes",
+  "auto": true,
+  "contexts": [
+    "option1option2-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option1.option1-custom.option1option2-yes",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option1option2-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ceb5ed8f-f802-4f93-90af-712f1a34403e",
+          "name": "Question1FV2yes",
+          "required": true,
+          "dataType": "@sys.any",
+          "value": "$question1FV2yes",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖 Qual(is)? #namestudant.name."
+            },
+            {
+              "lang": "en",
+              "value": "🤖 #namestudant.name poderia me dizer qual(is)?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n  01➡️ Atendimento pelo NAPNE\n  02➡️ Atendimento pelo NAPSI\n  03➡️ Atendimento pelo PRO-SAÚDE\n  04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

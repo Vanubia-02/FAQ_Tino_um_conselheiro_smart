@@ -1,0 +1,66 @@
+{
+  "id": "1ee809b3-340a-4018-9404-1f0b18a6b3d6",
+  "parentId": "96fe6e62-b580-46d6-af61-5d322dc751b2",
+  "rootParentId": "e7f816ba-ac26-4a74-89ad-bdf82416f861",
+  "name": "option4.option5 - no",
+  "auto": true,
+  "contexts": [
+    "namestudant",
+    "option4-followup",
+    "option4option5-followup-2",
+    "option4option5-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option4.option4-custom.option4option5-no",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option4-followup",
+          "lifespan": 50
+        },
+        {
+          "name": "option4option5-followup-2",
+          "lifespan": 50
+        },
+        {
+          "name": "option4option5-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n01➡️ Atendimento pelo NAPNE \n02➡️ Atendimento pelo NAPSI \n03➡️ Atendimento pelo PRO-SAÚDE \n04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,57 @@
+{
+  "id": "96fe6e62-b580-46d6-af61-5d322dc751b2",
+  "parentId": "e7f816ba-ac26-4a74-89ad-bdf82416f861",
+  "rootParentId": "e7f816ba-ac26-4a74-89ad-bdf82416f861",
+  "name": "option4.option5",
+  "auto": true,
+  "contexts": [
+    "option4-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option4.option4-custom",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option4-followup",
+          "lifespan": 50
+        },
+        {
+          "name": "option4option5-followup-2",
+          "lifespan": 50
+        },
+        {
+          "name": "option4option5-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name entre em contato com o PAE:\n\n📌Assistência Estudantil\n\nComissão Local de Assistência Estudantil (CLAE)\n📨 clae@guanambi.ibaiano.edu.br \n\n📌Serviço Social\n\nLucas Reis Trindade Nascimento \n📨lucas.nascimento@ifbaiano.edu.br\n\n🤢O acompanhamento psicoterapêutico no PAE é destinado a quem já possui um diagnóstico. Me diga #namestudant.name, você possui diagnóstico de alguma doença❓"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

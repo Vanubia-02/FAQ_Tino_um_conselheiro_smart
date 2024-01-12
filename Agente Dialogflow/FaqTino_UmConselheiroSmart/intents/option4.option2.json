@@ -1,0 +1,68 @@
+{
+  "id": "314bbed7-1ff5-475a-8237-b4144435a243",
+  "parentId": "e7f816ba-ac26-4a74-89ad-bdf82416f861",
+  "rootParentId": "e7f816ba-ac26-4a74-89ad-bdf82416f861",
+  "name": "option4.option2",
+  "contexts": [
+    "option4-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option4.option4-custom",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option4-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "eb2bf298-5c25-402b-8c42-20fb26d9f437",
+          "name": "Question2AV2",
+          "required": true,
+          "dataType": "@Choice",
+          "value": "$question2AV2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖 #namestudant.name, você pode solicitar: \n\nI - exames médicos e odontológicos; \nII - acompanhamento psicoterapêutico; \nIII - compra de medicações prescritos por médico ou dentista; \nIV - aquisição de óculos de grau; \nV - tratamento dentário; \nVI - compra de cama e colchão; \nVII - outras demandas, a serem avaliadas pela CLAE.\n\n🧠O acompanhamento psicoterapêutico pode ajudar com problemas psicológicos. Pensando nisso, me diga, suas preocupações ocorrem com frequência, consumindo mais de uma hora do seu dia❓"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n  01➡️ Atendimento pelo NAPNE\n  02➡️ Atendimento pelo NAPSI\n  03➡️ Atendimento pelo PRO-SAÚDE\n  04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

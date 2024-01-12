@@ -1,0 +1,68 @@
+{
+  "id": "95091ce2-95a5-44c4-bfd3-f14c027e30a9",
+  "parentId": "a8e7726c-8699-4a3b-9fee-cd350636e2bd",
+  "rootParentId": "a8e7726c-8699-4a3b-9fee-cd350636e2bd",
+  "name": "option3.option3",
+  "contexts": [
+    "option3-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option3.option3-custom",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option3-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3b446b8b-ff6f-4f50-8365-54ba36820e4c",
+          "name": "Question1EV1",
+          "required": true,
+          "dataType": "@Choice",
+          "value": "$question1EV1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖 Entre em contato com o PRO-SAÚDE:\n\n📌Enfermaria\n \nGabryella Castro Guimarães  \n📨 gabryella.guimaraes@ifbaiano.edu.br \n\nLeonardo Vagner Alves  \n📨 leonardo.alves@ifbaiano.edu.br\n\n💊A enfermaria dá suporte em vários aspectos. Me diga, você faz uso de algum remédio contínuo❓"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n  01➡️ Atendimento pelo NAPNE\n  02➡️ Atendimento pelo NAPSI\n  03➡️ Atendimento pelo PRO-SAÚDE\n  04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

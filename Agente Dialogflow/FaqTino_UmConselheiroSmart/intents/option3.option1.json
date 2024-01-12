@@ -1,0 +1,68 @@
+{
+  "id": "576b7946-5b2a-44e2-80ca-8d18c72c2876",
+  "parentId": "a8e7726c-8699-4a3b-9fee-cd350636e2bd",
+  "rootParentId": "a8e7726c-8699-4a3b-9fee-cd350636e2bd",
+  "name": "option3.option1",
+  "contexts": [
+    "option3-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option3.option3-custom",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option3-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "54d05440-3e50-4230-926c-735047b11f14",
+          "name": "Question1CV2",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$question1CV2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖Os profissionais do setor médico promovem palestras e fazem o atendimento,  entretanto, somente  os enfermeiros fazem o atendimento psicológico(quando se trata de ansiedade), com sessões de auriculoterapia.\n\n📍Essas sessões de auriculoterapia servem para alivar alguns sintomas. Pensando nisso, entre os seguintes sintomas #namestudant.name, quantos deles você identifica como presentes na maioria dos dias❓\n\n▫️ Se sente inquieto ou agitado na maior parte do tempo.\n▫️  Sente cansaço ou indisposição na maior parte do tempo.\n▫️  Enfrenta dificuldade para se concentrar na maior parte do tempo.\n▫️  Sente uma sensação de branco na mente com frequência.\n▫️  Se sente irritado na maioria dos dias.\n▫️  Sente tensão ou dores pelo corpo na maioria dos dias.\n▫️  Enfrenta dificuldade para dormir ou acorda com frequência na maioria dos dias."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n  01➡️ Atendimento pelo NAPNE\n  02➡️ Atendimento pelo NAPSI\n  03➡️ Atendimento pelo PRO-SAÚDE\n  04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

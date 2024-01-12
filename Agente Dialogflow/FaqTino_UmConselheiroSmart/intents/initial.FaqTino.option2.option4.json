@@ -1,0 +1,40 @@
+{
+  "id": "da5a834f-fb57-42f7-84c2-b868bf2399f1",
+  "parentId": "bd8110a0-fe72-454c-b5c6-a03416cbecf9",
+  "rootParentId": "6ddc88c7-a0ee-4380-b66a-cf3a6c23789d",
+  "name": "initial.FaqTino.option2.option4",
+  "auto": true,
+  "contexts": [
+    "initialFaqTinooption2-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "initialFaqTino.initialFaqTino-custom.initialFaqTinooption2-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 2.4 - Contatos do NAPSI.\n▪️ Núcleo de Apoio Pedagógico e Psicossocial ▪️\n\n01➡️ Menu\n00➡️ Finalizar conversa.\n\n▶ Para entrar em contato com o NAPSI\n\n📌Setor Médico:\n \nGabryella Castro Guimaraes (Enfermeira)\n📨 gabryella.guimaraes@ifbaiano.edu.br \n\nLeonardo Vagner Alves (Enfermeiro) \n📨 leonardo.alves@ifbaiano.edu.br\n\n📌Núcleo de psicologia: \n\nIgor Caio Vieira Malheiro. \n📨 igor.malheiro@guanambi.ifbaiano.edu.br \n\n📌Serviço Social:\n\nLucas Reis Trindade Nascimento \n📨lucas.nascimento@ifbaiano.edu.br"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

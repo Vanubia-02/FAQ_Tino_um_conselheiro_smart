@@ -1,0 +1,529 @@
+[
+  {
+    "value": "1º ADS",
+    "synonyms": [
+      "1 ADS",
+      "1 Análise e Desenvolvimento de Sistemas",
+      "Ads 1",
+      "1º ADS",
+      "1 Semestre Ads",
+      "primeiro ads",
+      "primeiro análise e desenvolvimento de sistemas.",
+      "ads primeiro"
+    ]
+  },
+  {
+    "value": "2º ADS",
+    "synonyms": [
+      "2 ADS",
+      "2 Análise e Desenvolvimento de Sistemas",
+      "Ads 2",
+      "2º ADS",
+      "2 Semestre Ads",
+      "segundo análise e desenvolvimento de sistemas.",
+      "segundo ads",
+      "ads segundo"
+    ]
+  },
+  {
+    "value": "3º ADS",
+    "synonyms": [
+      "3 ADS",
+      "3 Análise e Desenvolvimento de Sistemas",
+      "Ads 3",
+      "3º ADS",
+      "3 Semestre Ads",
+      "terceiro análise e desenvolvimento de sistemas.",
+      "terceiro ads",
+      "ads terceiro"
+    ]
+  },
+  {
+    "value": "4º ADS",
+    "synonyms": [
+      "4 ADS",
+      "4 Análise e Desenvolvimento de Sistemas",
+      "Ads 4",
+      "4º ADS",
+      "4 Semestre Ads",
+      "quarto análise e desenvolvimento de sistemas.",
+      "quarto ads",
+      "ads quarto"
+    ]
+  },
+  {
+    "value": "5º ADS",
+    "synonyms": [
+      "5 ADS",
+      "5 Analise e Desnvolvimneto de Sistemas",
+      "Ads 5",
+      "5º ADS",
+      "5º  Semestre Analise e Desenvolvimneto de Sistemas",
+      "5 Semestre Ads",
+      "quinto análise e desenvolvimento de sistemas.",
+      "quinto ads",
+      "ads quinto"
+    ]
+  },
+  {
+    "value": "1º Biologia",
+    "synonyms": [
+      "1 Biologia",
+      "Biologia 1",
+      "1º Biologia",
+      "primeiro biologia",
+      "biologia primeiro"
+    ]
+  },
+  {
+    "value": "2º Biologia",
+    "synonyms": [
+      "2 Biologia",
+      "Biologia 2",
+      "2º Biologia",
+      "segundo biologia",
+      "biologia segundo"
+    ]
+  },
+  {
+    "value": "3º Biologia",
+    "synonyms": [
+      "3 Biologia",
+      "Biologia 3",
+      "3º Biologia",
+      "terceiro biologia",
+      "biologia terceiro"
+    ]
+  },
+  {
+    "value": "4º Biologia",
+    "synonyms": [
+      "4 Biologia",
+      "Biologia 4",
+      "4º Biologia",
+      "quarto biologia",
+      "biologia quarto"
+    ]
+  },
+  {
+    "value": "5º Biologia",
+    "synonyms": [
+      "5 Biologia",
+      "Biologia 5",
+      "5º Biologia",
+      "quinto biologia",
+      "biologia quinto"
+    ]
+  },
+  {
+    "value": "6º Biologia",
+    "synonyms": [
+      "6 Biologia",
+      "Biologia 6",
+      "6º Biologia",
+      "sexto biologia",
+      "biologia sexto"
+    ]
+  },
+  {
+    "value": "7º Biologia",
+    "synonyms": [
+      "7 Biologia",
+      "Biologia 7",
+      "7º Biologia",
+      "biologia setimo",
+      "setimo biologia"
+    ]
+  },
+  {
+    "value": "8º Biologia",
+    "synonyms": [
+      "8 Biologia",
+      "Biologia 8",
+      "8º Biologia",
+      "oitavo biologia",
+      "biologia oitavo"
+    ]
+  },
+  {
+    "value": "1º Química",
+    "synonyms": [
+      "1 Química",
+      "Química 1",
+      "1º Química",
+      "primeiro química",
+      "química primeiro"
+    ]
+  },
+  {
+    "value": "2º Química",
+    "synonyms": [
+      "2 Química",
+      "Química 2",
+      "2º Química",
+      "química segundo",
+      "segundo química"
+    ]
+  },
+  {
+    "value": "3º Química",
+    "synonyms": [
+      "3 Química",
+      "Química 3",
+      "3º Química",
+      "terceiro química",
+      "quimica terceiro"
+    ]
+  },
+  {
+    "value": "4º Química",
+    "synonyms": [
+      "4 Química",
+      "Química 4",
+      "4º Química",
+      "química quarto",
+      "quarto química"
+    ]
+  },
+  {
+    "value": "5º Química",
+    "synonyms": [
+      "5 Química",
+      "Química 5",
+      "5º Química",
+      "quinto química",
+      "química quinto"
+    ]
+  },
+  {
+    "value": "6º Química",
+    "synonyms": [
+      "6 Química",
+      "Química 6",
+      "6º Química",
+      "sexto química",
+      "química sexto"
+    ]
+  },
+  {
+    "value": "7º Química",
+    "synonyms": [
+      "7 Química",
+      "Química 7",
+      "7º Química",
+      "setimo química",
+      "química setimo"
+    ]
+  },
+  {
+    "value": "8º Química",
+    "synonyms": [
+      "8 Química",
+      "Química 8",
+      "8º Química",
+      "oitavo química",
+      "quimica oitavo"
+    ]
+  },
+  {
+    "value": "1º Agroindústria",
+    "synonyms": [
+      "1 Agroindústria",
+      "Agroindústria 1",
+      "1º Agroindústria",
+      "primeiro Agroindústria",
+      "Agroindústria primeiro"
+    ]
+  },
+  {
+    "value": "2º Agroindústria",
+    "synonyms": [
+      "2 Agroindústria",
+      "Agroindústria 2",
+      "2º Agroindústria",
+      "segundo Agroindústria",
+      "Agroindústria segundo"
+    ]
+  },
+  {
+    "value": "3º Agroindústria",
+    "synonyms": [
+      "3 Agroindústria",
+      "Agroindústria 3",
+      "3º Agroindústria",
+      "terceiro Agroindústria",
+      "Agroindústria terceiro"
+    ]
+  },
+  {
+    "value": "4º Agroindústria",
+    "synonyms": [
+      "4 Agroindústria",
+      "Agroindústria 4",
+      "4º Agroindústria",
+      "quarto Agroindústria",
+      "Agroindústria quarto"
+    ]
+  },
+  {
+    "value": "5º Agroindústria",
+    "synonyms": [
+      "5 Agroindústria",
+      "Agroindústria 5",
+      "5º Agroindústria",
+      "quinto Agroindústria",
+      "Agroindústria quinto"
+    ]
+  },
+  {
+    "value": "6º Agroindústria",
+    "synonyms": [
+      "6 Agroindústria",
+      "Agroindústria 6",
+      "6º Agroindústria"
+    ]
+  },
+  {
+    "value": "1º Agronomia",
+    "synonyms": [
+      "1 Agronomia",
+      "Agronomia 1",
+      "1º Agronomia",
+      "Agronomia primeiro",
+      "primeiro Agronomia"
+    ]
+  },
+  {
+    "value": "2º Agronomia",
+    "synonyms": [
+      "2 Agronomia",
+      "Agronomia 2",
+      "2º Agronomia",
+      "segundo Agronomia",
+      "Agronomia segundo"
+    ]
+  },
+  {
+    "value": "3º Agronomia",
+    "synonyms": [
+      "3 Agronomia",
+      "Agronomia 3",
+      "3º Agronomia",
+      "Agronomia terceiro",
+      "terceiro Agronomia"
+    ]
+  },
+  {
+    "value": "4º Agronomia",
+    "synonyms": [
+      "4 Agronomia",
+      "Agronomia 4",
+      "4º Agronomia",
+      "quarto Agronomia",
+      "Agronomia quarto"
+    ]
+  },
+  {
+    "value": "5º Agronomia",
+    "synonyms": [
+      "5 Agronomia",
+      "Agronomia 5",
+      "5º Agronomia",
+      "quinto Agronomia",
+      "Agronomia quinto"
+    ]
+  },
+  {
+    "value": "6º Agronomia",
+    "synonyms": [
+      "6 Agronomia",
+      "Agronomia 6",
+      "6º Agronomia",
+      "sexo Agronomia",
+      "Agronomia sexto"
+    ]
+  },
+  {
+    "value": "7º Agronomia",
+    "synonyms": [
+      "7 Agronomia",
+      "Agronomia 7",
+      "7º Agronomia",
+      "setimo Agronomia",
+      "Agronomia setimo"
+    ]
+  },
+  {
+    "value": "8º Agronomia",
+    "synonyms": [
+      "8 Agronomia",
+      "Agronomia 8",
+      "8º Agronomia",
+      "oitavo Agronomia",
+      "Agronomia oitavo"
+    ]
+  },
+  {
+    "value": "9º Agronomia",
+    "synonyms": [
+      "9 Agronomia",
+      "Agronomia 9",
+      "9º Agronomia",
+      "nono Agronomia",
+      "Agronomia nono"
+    ]
+  },
+  {
+    "value": "10º Agronomia",
+    "synonyms": [
+      "10 Agronomia",
+      "Agronomia 10",
+      "10º Agronomia",
+      "décimo Agronomia",
+      "Agronomia décimo"
+    ]
+  },
+  {
+    "value": "1º Zootecnia",
+    "synonyms": [
+      "1 Zootecnia",
+      "Zootecnia 1",
+      "1º Zootecnia",
+      "Zootecnia primeiro",
+      "primeiro Zootecnia"
+    ]
+  },
+  {
+    "value": "2º Zootecnia",
+    "synonyms": [
+      "2 Zootecnia",
+      "Zootecnia 2",
+      "2º Zootecnia",
+      "segundo Zootecnia",
+      "Zootecnia segundo"
+    ]
+  },
+  {
+    "value": "3º Zootecnia",
+    "synonyms": [
+      "3 Zootecnia",
+      "Zootecnia 3",
+      "3º Zootecnia",
+      "terceiro Zootecnia",
+      "Zootecnia terceira"
+    ]
+  },
+  {
+    "value": "4º Zootecnia",
+    "synonyms": [
+      "4 Zootecnia",
+      "Zootecnia 4",
+      "4º Zootecnia",
+      "quarto Zootecnia",
+      "Zootecnia quarto"
+    ]
+  },
+  {
+    "value": "5º Zootecnia",
+    "synonyms": [
+      "5 Zootecnia",
+      "Zootecnia 5",
+      "5º Zootecnia",
+      "quinto Zootecnia",
+      "Zootecnia quinto"
+    ]
+  },
+  {
+    "value": "6º Zootecnia",
+    "synonyms": [
+      "6 Zootecnia",
+      "Zootecnia 6",
+      "6º Zootecnia",
+      "sexto Zootecnia",
+      "Zootecnia sexto"
+    ]
+  },
+  {
+    "value": "1º Agricultura",
+    "synonyms": [
+      "1 Agricultura",
+      "Agricultura 1",
+      "1º Agricultura",
+      "primeiro Agricultura",
+      "Agricultura primeiro"
+    ]
+  },
+  {
+    "value": "2º Agricultura",
+    "synonyms": [
+      "2 Agricultura",
+      "Agricultura 2",
+      "2º Agricultura",
+      "segundo Agricultura",
+      "Agricultura segundo"
+    ]
+  },
+  {
+    "value": "3º Agricultura",
+    "synonyms": [
+      "3 Agricultura",
+      "Agricultura 3",
+      "3º Agricultura",
+      "terceiro Agricultura",
+      "Agricultura terceiro"
+    ]
+  },
+  {
+    "value": "3AB",
+    "synonyms": [
+      "3AB",
+      "3ºAB",
+      "AB 3",
+      "AB",
+      "terceiro AB"
+    ]
+  },
+  {
+    "value": "3BA",
+    "synonyms": [
+      "3BA",
+      "3ºBA",
+      "BA 3",
+      "BA",
+      "terceiro BA"
+    ]
+  },
+  {
+    "value": "3AA",
+    "synonyms": [
+      "3AA",
+      "3ºAA",
+      "AA 3",
+      "AA",
+      "terceiro AA"
+    ]
+  },
+  {
+    "value": "3AI",
+    "synonyms": [
+      "3AI",
+      "3ºAI",
+      "AI 3",
+      "AII",
+      "3aii",
+      "terceiro AII"
+    ]
+  },
+  {
+    "value": "3BI",
+    "synonyms": [
+      "3BI",
+      "3ºBI",
+      "BI 3",
+      "3bii",
+      "Bii",
+      "BII",
+      "terceiro BII"
+    ]
+  }
+]

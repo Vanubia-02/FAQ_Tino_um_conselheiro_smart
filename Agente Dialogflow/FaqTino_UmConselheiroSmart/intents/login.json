@@ -1,0 +1,70 @@
+{
+  "id": "abaee6f1-d2f4-44af-b8d6-1fce9a03815d",
+  "name": "login",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "login-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3881ad18-2c89-40c7-9412-2614448b1fb5",
+          "name": "code",
+          "required": true,
+          "dataType": "@login_code",
+          "value": "$login_code",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🔒 Para listar, registar, ou deletar e-mails, você precisa ter o código ADMIN!\n\n*** Insira seu código passe para fazer login:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🔓 Ok. Código passe correto! Seja bem-vindo ADMIN."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "👇 Admin, você tem algumas opções. Digite as palavras-chave referente a ação que deseja fazer. \n\n📝 \"Add e-mail\"\n\n❌ \"Apagar e-mail\"\n\n✅ \"Listar e-mails\"\n\n🛑 \"SAIR\""
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

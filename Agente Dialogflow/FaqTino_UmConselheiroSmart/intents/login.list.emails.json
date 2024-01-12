@@ -1,0 +1,28 @@
+{
+  "id": "4f7ac10f-72cc-4788-8fcd-f8f665c0fa42",
+  "parentId": "abaee6f1-d2f4-44af-b8d6-1fce9a03815d",
+  "rootParentId": "abaee6f1-d2f4-44af-b8d6-1fce9a03815d",
+  "name": "login.list.emails",
+  "auto": true,
+  "contexts": [
+    "login-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "login.login-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

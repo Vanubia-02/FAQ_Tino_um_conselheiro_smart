@@ -1,0 +1,49 @@
+{
+  "id": "9c030e89-6399-4210-8af2-caaf08224e75",
+  "parentId": "abaee6f1-d2f4-44af-b8d6-1fce9a03815d",
+  "rootParentId": "abaee6f1-d2f4-44af-b8d6-1fce9a03815d",
+  "name": "login - fallback",
+  "auto": true,
+  "contexts": [
+    "login-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "login.login-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🚫 Opção inválida! Admin🚫 \n\n⚙️ Digite \"Gerenciar e-mails\" para voltrar as operações.",
+            "🚫 Erro: está opção não é reconhecida Admin🚫 \n\n⚙️ Digite \"Gerenciar e-mails\" para voltrar as operações.",
+            "🚫 Ops! Opção inválida Admin🚫 \n\n⚙️ Digite \"Gerenciar e-mails\" para voltrar as operações.",
+            "🚫 Desculpe, Admin, opção inválida🚫 \n\n⚙️ Digite \"Gerenciar e-mails\" para voltrar as operações."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

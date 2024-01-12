@@ -1,0 +1,83 @@
+{
+  "id": "52a32a17-67ff-426c-99a6-d7f5d12423fb",
+  "parentId": "abaee6f1-d2f4-44af-b8d6-1fce9a03815d",
+  "rootParentId": "abaee6f1-d2f4-44af-b8d6-1fce9a03815d",
+  "name": "login.delete.emails",
+  "contexts": [
+    "login-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "login.login-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7b4404b5-fc9f-44c8-91ba-ee1f8464be9e",
+          "name": "DeleteEmail",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$emailDelete",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "✉️ Digite o E-mail que deseja deletar:"
+            },
+            {
+              "lang": "en",
+              "value": "✉️ Informe o e-mail que você gostaria de excluir:"
+            },
+            {
+              "lang": "en",
+              "value": "✉️ Insira o endereço de e-mail a ser removido:"
+            },
+            {
+              "lang": "en",
+              "value": "✉️ Digite o e-mail que deseja remover da lista:"
+            },
+            {
+              "lang": "en",
+              "value": "✉️ Insira o endereço de e-mail que deseja excluir:"
+            },
+            {
+              "lang": "en",
+              "value": "✉️ Digite o endereço de e-mail que será removido:"
+            },
+            {
+              "lang": "en",
+              "value": "✉️ Forneça o e-mail que deseja apagar:"
+            },
+            {
+              "lang": "en",
+              "value": "✉️ Coloque o e-mail para ser excluido:"
+            },
+            {
+              "lang": "en",
+              "value": "✉️ Digite o e-mail que será deletado:"
+            },
+            {
+              "lang": "en",
+              "value": "✉️ Forneça o e-mail para ser apagado:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

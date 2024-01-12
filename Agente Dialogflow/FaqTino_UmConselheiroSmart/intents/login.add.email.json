@@ -1,0 +1,88 @@
+{
+  "id": "5ae1fbd0-aea4-4f94-a6ce-f7fc024e0806",
+  "parentId": "abaee6f1-d2f4-44af-b8d6-1fce9a03815d",
+  "rootParentId": "abaee6f1-d2f4-44af-b8d6-1fce9a03815d",
+  "name": "login.add.email",
+  "contexts": [
+    "login-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "login.login-custom",
+      "affectedContexts": [
+        {
+          "name": "loginaddemail-followup",
+          "lifespan": 20
+        }
+      ],
+      "parameters": [
+        {
+          "id": "af7d6ff9-4243-4f34-b753-6f441e2023d5",
+          "name": "AddEmail",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$emailAdd",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "📧 Digite o E-mail que deseja cadastrar :"
+            },
+            {
+              "lang": "en",
+              "value": "📧 Entre com o E-mail que deseja cadastrar :"
+            },
+            {
+              "lang": "en",
+              "value": "📧 Informe o E-mail que deseja cadastrar:"
+            },
+            {
+              "lang": "en",
+              "value": "📧 Qual E-mail deseja cadastrar:"
+            },
+            {
+              "lang": "en",
+              "value": "📧 Informe o E-mail que deseja cadastrar:"
+            },
+            {
+              "lang": "en",
+              "value": "📧 Indique o endereço de e-mail para cadastro"
+            },
+            {
+              "lang": "en",
+              "value": "📧 Forneça o e-mail para o cadastro:"
+            },
+            {
+              "lang": "en",
+              "value": "📧 Digite o e-mail que você quer cadastrar:"
+            },
+            {
+              "lang": "en",
+              "value": "📧 Digite o email para ser cadastrado:"
+            },
+            {
+              "lang": "en",
+              "value": "📧 Insira o endereço de e-mail desejado:"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

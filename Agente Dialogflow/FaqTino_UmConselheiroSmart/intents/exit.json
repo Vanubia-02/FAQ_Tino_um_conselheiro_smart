@@ -1,0 +1,44 @@
+{
+  "id": "9778eb88-4839-4cc4-abb0-7726c0daab85",
+  "name": "exit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 Ok . Volte sempre!",
+            "🤖 Certo . Até logo!",
+            "🤖 OK. Espero ter ajudado. Volte sempre!",
+            "🤖 OK. Foi um prazer. Volte sempre!",
+            "🤖 Espero ter ajudado. Volte sempre!",
+            "🤖OK. Se precisar estou à disposição!",
+            "🤖 Certo. Se surgir mais alguma dúvida, estarei aqui!",
+            "🤖 Ok. Se surgir algo mais, estou aqui. Volte quando precisar!",
+            "🤖 OK. Se precisar, estarei aqui. Foi um prazer ajudar!",
+            "🤖 Está bem. Não esqueça, sou FAQ Tino: seu conselheiro smart!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

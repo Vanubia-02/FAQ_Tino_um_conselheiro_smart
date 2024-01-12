@@ -1,0 +1,45 @@
+{
+  "id": "a8e7726c-8699-4a3b-9fee-cd350636e2bd",
+  "name": "option3",
+  "contexts": [
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "option3-followup",
+          "lifespan": 50
+        },
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 03 - Atendimento pelo PRO-SAÚDE\n\n1 ➡️ Como é o atendimento psicológico pelo PRO-SAÚDE?\n2 ➡️ Quais as parcerias de atendimento psicológico - PRO-SAÚDE?\n3 ➡️ Quais os contatos do PRO-SAÚDE?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

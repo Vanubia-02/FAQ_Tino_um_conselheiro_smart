@@ -1,0 +1,68 @@
+{
+  "id": "c0eab82f-4ebb-4637-b44b-ea29f28569a5",
+  "parentId": "e7beba65-02ba-438f-8150-9108a40e9cd8",
+  "rootParentId": "e7beba65-02ba-438f-8150-9108a40e9cd8",
+  "name": "option2.option1",
+  "contexts": [
+    "option2-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option2.option2-custom",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option2-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "aa6e5df3-57b4-4c1f-b09b-299a0e0358e6",
+          "name": "Question1BV1",
+          "required": true,
+          "dataType": "@Choice",
+          "value": "$question1BV1",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖 O atendimento psicológico pelo NAPSI ocorre quando os profissionais do setor médico ou professores percebem sinais de problemas psicológicos nos alunos, e os encaminham para o psicólogo ou para a Coordenação de Assuntos Estudantis(CAE). Em outros casos, o próprio aluno pode ir até o  CAE para se informar.\n\n\n💆🏽‍♂️E pode ter aspectos que só o aluno percebe, como preocupações. Me diga, você  percebe que suas preocupações são difíceis de controlar❓"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n  01➡️ Atendimento pelo NAPNE\n  02➡️ Atendimento pelo NAPSI\n  03➡️ Atendimento pelo PRO-SAÚDE\n  04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

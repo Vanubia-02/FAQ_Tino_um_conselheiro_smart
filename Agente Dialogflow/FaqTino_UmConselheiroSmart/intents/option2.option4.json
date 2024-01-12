@@ -1,0 +1,68 @@
+{
+  "id": "1c1519f0-d330-4873-91f4-99d063ddec99",
+  "parentId": "e7beba65-02ba-438f-8150-9108a40e9cd8",
+  "rootParentId": "e7beba65-02ba-438f-8150-9108a40e9cd8",
+  "name": "option2.option4",
+  "contexts": [
+    "option2-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option2.option2-custom",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option2-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b0c49765-7dc3-4cc7-ac2c-420d1ea1e6ce",
+          "name": "Question1DV2",
+          "required": true,
+          "dataType": "@Choice",
+          "value": "$question1DV2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖Entre em contato com o NAPSI: \n\n📌 CAE\n\nSilvana Vanessa Martins da Silva Bonfim\n📨 silvana.bonfim@ifbaiano.edu.br  \n📲Telefone: 77 3493-2100 \n\n📌 Psicologia\n\nIgor Caio Vieira Malheiro (Psicologo)\n📨 igor.malheiro@guanambi.ifbaiano.edu.br\n\n\n🤦🏼‍♂️O NAPSI pode ajudar os alunos com problemas, a lidar com situações que possam lhes prejudicar. Inclusive, me diga, suas preocupações interferem significativamente em suas atividades diárias❓"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n  01➡️ Atendimento pelo NAPNE\n  02➡️ Atendimento pelo NAPSI\n  03➡️ Atendimento pelo PRO-SAÚDE\n  04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

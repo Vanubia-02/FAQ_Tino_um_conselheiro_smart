@@ -1,0 +1,45 @@
+{
+  "id": "e7f816ba-ac26-4a74-89ad-bdf82416f861",
+  "name": "option4",
+  "contexts": [
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option4-followup-2",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖  04 - Atendimento pelo PAE\n\n1 ➡️ Como conseguir atendimento pelo PAE?\n2 ➡️ O que pode ser solicitado no auxílio eventual? \n3 ➡️ Quanto pode ser solicitado no auxílio eventual?\n4 ➡️ Para quem é destinado o auxílio eventual?\n5 ➡️ Quais os contatos do PAE?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

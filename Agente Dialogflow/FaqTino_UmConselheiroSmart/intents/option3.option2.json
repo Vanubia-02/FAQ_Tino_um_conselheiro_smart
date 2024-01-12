@@ -1,0 +1,68 @@
+{
+  "id": "26b54364-149f-42ec-b3d4-319a2d653410",
+  "parentId": "a8e7726c-8699-4a3b-9fee-cd350636e2bd",
+  "rootParentId": "a8e7726c-8699-4a3b-9fee-cd350636e2bd",
+  "name": "option3.option2",
+  "contexts": [
+    "option3-followup",
+    "namestudant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "option3.option3-custom",
+      "affectedContexts": [
+        {
+          "name": "namestudant",
+          "lifespan": 50
+        },
+        {
+          "name": "option3-followup",
+          "lifespan": 50
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2cec3b73-d62a-4e31-9d77-6845ccc5515c",
+          "name": "Question1BV2",
+          "required": true,
+          "dataType": "@Choice",
+          "value": "$Question1BV2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "🤖 Parcerias de Ceraima e Guanambi: \n\n▪️ Com postos de saúde e UPA:  organizam palestras e campanhas de vacinação no Instituto.\n\n▪️ Posto de saúde de Ceraima: casos leves. \n\n▪️ Centro de Testagem e Aconselhamento(CTA) de Guanambi: casos graves(vítimas de acidente, violência sexual e entre outros)\n\n\n💭O PRO-SAÚDE ajuda em vários tipos de casos e situações que ocorre com o aluno, inclusive, você passa boa parte do dia pensando em suas preocupações❓"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "🤖 #namestudant.name, escolha uma das opções sobre atendimento psicológico do Campus Guanambi: \n\n  01➡️ Atendimento pelo NAPNE\n  02➡️ Atendimento pelo NAPSI\n  03➡️ Atendimento pelo PRO-SAÚDE\n  04➡️ Atendimento pelo PAE"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
