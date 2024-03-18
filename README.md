@@ -1,4 +1,4 @@
-# <img src="/media/logo.png" width="25px" height="25px" /> PowerMap
+# <img src="/media/logo.png" width="25px" height="25px" /> Faq Tino
 
 ## Sumário
 
