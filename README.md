@@ -48,7 +48,7 @@ e no apoio aos sintomas de ansiedade, utilizando recursos de processamento de li
 ## Requisitos Funcionais
 <a id="requisitos-funcionais"></a>
 
-É possível visualizar o ![Diagrama de Caso de Uso](Agent/-requisitos.png)
+É possível visualizar o ![Diagrama de Caso de Uso](Agent/Documentation/Diagrama_Caso_de_Uso_FAQ_Tino.jpg)
 , mas de forma resumida, os requisitos funcionais do aplicativo são os seguintes:
 
 ```markdown
@@ -64,26 +64,27 @@ e no apoio aos sintomas de ansiedade, utilizando recursos de processamento de li
 ## Recursos Técnicos Utilizados
 <a id="recursos-técnicos-utilizados"></a>
 
-- Java
-- Firebase
-- Firebase Storage
-- SQL Lite
-- APIs
+- Dialogflow
+- Api Firebase
+- Firebase(Realtime Database)
 - JSON
-- Shared Preferences
-- Material Design
-- Bumptech
+- NodeJs
+- Cloud Functions
+- Zapier
+- Api Telegram
+- Api Dialogflow
+- Auto Reply
  
 ## Resultado Final  
 <a id="resultado-final--aplicação-rodando"></a>
 
 <div style="display: flex">
-  <img src="/media/1.jpeg" width="200px" height="360px" />    
-   <img src="/media/2.jpeg" width="200px" height="360px"  />    
-  <img src="/media/3.jpeg"  width="200px"  height="360px"  />    
-  <img src="/media/4.jpeg" width="200px"   height="360px"  />    
-  <img src="/media/9.jpeg" width="200px"   height="360px"  />    
-  <img src="/media/6.jpeg" width="200px"  height="360px"  />    
-  <img src="/media/7.jpeg" width="200px"   height="360px"  />    
-  <img src="/media/8.jpeg" width="200px"   height="360px"  />    
+  <img src="/media/.jpeg" width="200px" height="360px" />    
+   <img src="/media/.jpeg" width="200px" height="360px"  />    
+  <img src="/media/.jpeg"  width="200px"  height="360px"  />    
+  <img src="/media/.jpeg" width="200px"   height="360px"  />    
+  <img src="/media/.jpeg" width="200px"   height="360px"  />    
+  <img src="/media/.jpeg" width="200px"  height="360px"  />    
+  <img src="/media/.jpeg" width="200px"   height="360px"  />    
+  <img src="/media/.jpeg" width="200px"   height="360px"  />    
 </div>
