@@ -85,12 +85,16 @@ e no apoio aos sintomas de ansiedade, utilizando recursos de processamento de li
 <a id="resultado-final--aplicação-rodando"></a>
 
 <div style="display: flex">
-  <img src="/media/.jpeg" width="200px" height="360px" />    
-   <img src="/media/.jpeg" width="200px" height="360px"  />    
-  <img src="/media/.jpeg"  width="200px"  height="360px"  />    
-  <img src="/media/.jpeg" width="200px"   height="360px"  />    
-  <img src="/media/.jpeg" width="200px"   height="360px"  />    
-  <img src="/media/.jpeg" width="200px"  height="360px"  />    
-  <img src="/media/.jpeg" width="200px"   height="360px"  />    
-  <img src="/media/.jpeg" width="200px"   height="360px"  />    
+  <img src="/media/telegram_1.png" width="200px" height="360px"/>    
+  <img src="/media/telegram_2.png" width="200px" height="360px"/>    
+  <img src="/media/telegram_3.png"  width="200px"  height="360px"/>    
+  <img src="/media/web_1.png" width="200px"   height="360px"/>    
+  <img src="/media/web_2.png" width="200px"   height="360px"/>    
+  <img src="/media/web_3.png" width="200px"  height="360px"/>    
+  <img src="/media/wpp_1.png" width="200px"   height="360px"/>    
+  <img src="/media/wpp_2.png" width="200px"   height="360px"/>   
+  <img src="/media/wpp_3.png" width="200px"   height="360px"/>    
+  <img src="/media/wpp_4.png" width="200px"   height="360px"/>    
+  <img src="/media/zapier.png" width="200px"   height="360px"/> 
+  <img src="/media/envio_email.png" width="200px"   height="360px"/>    
 </div>
