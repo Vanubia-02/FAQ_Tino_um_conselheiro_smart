@@ -1,4 +1,4 @@
-# <img src="/media/logo.png" width="25px" height="25px" /> Faq Tino
+# <img src="Agent/Media/Chatbot-Faqtino_logo.png" width="25px" height="25px" /> Faq Tino
 
 ## Sumário
 
@@ -85,16 +85,14 @@ e no apoio aos sintomas de ansiedade, utilizando recursos de processamento de li
 <a id="resultado-final--aplicação-rodando"></a>
 
 <div style="display: flex">
-  <img src="Agent/media/telegram_1.png" width="200px" height="360px"/>    
-  <img src="Agent/media/telegram_2.png" width="200px" height="360px"/>    
-  <img src="Agent/media/telegram_3.png" width="200px" height="360px"/>  
-  <img src="Agent/media/wpp_3.png" width="200px" height="360px"/>    
-  <img src="Agent/media/wpp_1.png" width="200px" height="360px"/>    
-  <img src="Agent/media/wpp_4.png" width="200px" height="360px"/>    
-  <img src="Agent/media/zapier.png" width="200px" height="360px"/> 
-  <img src="Agent/media/envio_email.png" width="200px" height="360px"/> 
-  
-  <img src="Agent/media/web_1.png" width="200px" height="360px"/>    
-  <img src="Agent/media/web_2.png" width="200px" height="360px"/>    
-  <img src="Agent/media/web_3.png" width="200px" height="360px"/>    
+  <img src="Agent/Media/telegram_1.png" width="200px" height="360px"/>    
+  <img src="Agent/Media/telegram_2.png" width="200px" height="360px"/>    
+  <img src="Agent/Media/telegram_3.png" width="200px" height="360px"/>  
+  <img src="Agent/Media/wpp_1.png" width="200px" height="360px"/>    
+  <img src="Agent/Media/wpp_2.png" width="200px" height="360px"/>    
+  <img src="Agent/Media/wpp_3.png" width="200px" height="360px"/>      
+  <img src="Agent/Media/web_1.png" width="800px" height="400px"/>    
+  <img src="Agent/Media/web_2.png" width="800px" height="400px"/>    
+  <img src="Agent/Media/web_3.png" width="800px" height="400px"/>   
+  <img src="Agent/Media/envio_email.png" width="800px" height="500px"/> 
 </div>
