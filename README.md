@@ -8,7 +8,7 @@
 - [Solução](#solucao)
 - [Requisitos Funcionais](#requisitos-funcionais)
 - [Recursos Técnicos Utilizados](#recursos-técnicos-utilizados)
-- [Resultado Final](#resultado-final--aplicação-rodando)
+- [Resultado Final](#resultado-final)
 
 ## Informações Gerais
 <a id="info_gerais"></a>
@@ -82,7 +82,7 @@ e no apoio aos sintomas de ansiedade, utilizando recursos de processamento de li
 - JS
  
 ## Resultado Final  
-<a id="resultado-final--aplicação-rodando"></a>
+<a id="resultado-final"></a>
 
 <div style="display: flex">
   <img src="Agent/Media/telegram_1.png" width="200px" height="360px"/>    
