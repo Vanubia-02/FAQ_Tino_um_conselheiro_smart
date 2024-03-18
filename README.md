@@ -1,4 +1,4 @@
-# <img src="Agent/Media/Chatbot-Faqtino_logo.png" width="25px" height="25px" /> Faq Tino
+# <img src="Agent/Media/Chatbot-Faqtino_logo.png" width="50px" height="50px" /> Faq Tino
 
 ## Sumário
 
