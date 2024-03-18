@@ -48,8 +48,11 @@ e no apoio aos sintomas de ansiedade, utilizando recursos de processamento de li
 ## Requisitos Funcionais
 <a id="requisitos-funcionais"></a>
 
-É possível visualizar o ![Diagrama de Caso de Uso](Agent/Documentation/Diagrama_Caso_de_Uso_FAQ_Tino.jpg)
-, mas de forma resumida, os requisitos funcionais do aplicativo são os seguintes:
+É possível visualizar o Diagrama de Caso de uso abaixo 
+
+<img src="Agent/Documentation/Diagrama_Caso_de_Uso_FAQ_Tino.jpg" alt="Diagrama de Caso de Uso" width="420" height="400">
+
+-- De forma resumida, os requisitos funcionais do aplicativo são os seguintes:
 
 ```markdown
  [RF001] Inserir Código
@@ -64,16 +67,19 @@ e no apoio aos sintomas de ansiedade, utilizando recursos de processamento de li
 ## Recursos Técnicos Utilizados
 <a id="recursos-técnicos-utilizados"></a>
 
-- Dialogflow
-- Api Firebase
 - Firebase(Realtime Database)
-- JSON
-- NodeJs
 - Cloud Functions
-- Zapier
-- Api Telegram
 - Api Dialogflow
+- Api Telegram
+- Api Firebase
+- Dialogflow
 - Auto Reply
+- NodeJs
+- Zapier
+- JSON
+- HTML
+- CSS
+- JS
  
 ## Resultado Final  
 <a id="resultado-final--aplicação-rodando"></a>
